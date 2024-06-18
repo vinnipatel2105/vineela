@@ -22,5 +22,10 @@ public class OopsconceptDemo {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	@Override
+	public String toString() {
+		return "OopsconceptDemo [serialNum=" + serialNum + ", name=" + name + ", age=" + age + "]";
+	}
+	
 	
 }
